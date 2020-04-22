@@ -1,15 +1,24 @@
-/* Bubble Sort Algorithm
-¿·¿¡ ÀÖ´Â °ª°ú ºñ±³ÇØ¼­ ´õ ÀÛÀº °ªÀ» ¾ÕÀ¸·Î º¸³»´Â ¹æ¹ý
-¹öºí Á¤·ÄÀÇ ½Ã°£ º¹Àâµµ : N*(N+1)/2 => O(N^2)
-* °¡Àå ´À¸®°í ºñÈ¿À²ÀûÀÎ Á¤·Ä ¾Ë°í¸®Áò
-*/
+# 02. ë²„ë¸” ì •ë ¬ (Bubble sort)
 
+ì˜†ì— ìžˆëŠ” ê°’ê³¼ ë¹„êµí•´ì„œ ë” ìž‘ì€ ê°’ì„ ì•žìœ¼ë¡œ ë³´ë‚´ëŠ” ë°©ë²•
+
+
+
+ê°€ìž¥ ëŠë¦¬ê³  ë¹„íš¨ìœ¨ì ì¸ ì •ë ¬ ì•Œê³ ë¦¬ì¦˜
+
+
+
+#### source code
+
+------
+
+```c
 #include <stdio.h>
 
 int main(void) {
 	int i, j, temp;
 	int array[10] = {1,10,5,8,7,6,4,3,2,9};
-	
+
 	for(i=0; i<10; i++) {
 		for(j=0; j <9-i; j++) {
 			if(array[j] > array[j+1]) {
@@ -25,3 +34,12 @@ int main(void) {
 	
 	return 0; 
 }
+```
+
+
+
+#### ì‹œê°„ ë³µìž¡ë„
+
+------
+
+ë²„ë¸” ì •ë ¬ì˜ ì‹œê°„ ë³µìž¡ë„ëŠ” : N*(N+1)/2 => O(N^2)
