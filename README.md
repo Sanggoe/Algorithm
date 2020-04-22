@@ -4,9 +4,7 @@
 
 
 
-#### Sort
-
-------
+## Sort
 
 정렬 관련 소개 및 설명 [출처 TED-ed]
 
@@ -24,7 +22,5 @@ https://www.youtube.com/watch?v=WaNLJf8xzC4
 
 
 
-#### Data Structure
-
-------
+## Data Structure
 
