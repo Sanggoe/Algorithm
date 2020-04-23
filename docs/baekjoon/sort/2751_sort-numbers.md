@@ -48,30 +48,51 @@ N개의 수가 주어졌을 때, 이를 오름차순으로 정렬하는 프로�
 ```c
 #include <stdio.h>
 
-int array[3];  
+int number, array[1000001];
+
+void quickSort(int *data, int start, int end) {
+	if (start >= end) {
+		return;
+	}
+	
+	int key = start;
+	int i = start+1;
+	int j = end;
+	int temp;
+	
+	while(i<=j) {
+		while(data[i] <= data[key]) {
+			i++;
+		}
+		while(data[j] >= data[key] && j > start) {
+			j--;
+		}
+		if(i > j) {
+			temp = data[j];
+			data[j] = data[key];
+			data[key] = temp;
+		} else {
+			temp = data[i];
+			data[i] = data[j];
+			data[j] = temp;
+		}
+		
+		quickSort(data, start, j-1);
+		quickSort(data, j+1, end);
+	}
+}
 
 int main(void) {
-	int i, j, min, index, temp;
-		
-	for(i=0; i<3; i++) {
+	int i;
+	
+	scanf("%d", &number);
+	for(i=0; i<number; i++) {
 		scanf("%d", &array[i]);
 	}
+	quickSort(array, 0, number-1);
 	
-	for(i=0; i<3; i++) {
-		min = 1000001;	// 입력값 최대가 1000000이므로 
-		for(j=i; j<3; j++) {
-			if(min > array[j]) {
-				min = array[j];
-				index = j;
-			}
-		}
-		temp = array[i];
-		array[i] = array[index];
-		array[index] = temp;
-	}
-	
-	for(i=0; i<3; i++) {
-		printf("%d ", array[i]);
+	for(i=0; i<number; i++) {
+		printf("%d\n", array[i]);
 	}
 }
 ```
@@ -81,3 +102,7 @@ int main(void) {
 ### Tip
 
 - 데이터의 개수는 최대 1,000,000개 이다. 
+- 시간 복잡도가 logN을 요구하는 문제이다.
+- 기본적인 Quick 정렬의 경우, 최악의 경우 **NxN** 이기에 보통은 틀리도록 문제를 낸다.
+- ... 예전과 다르게 Test case를 더 추가해서 지금은 Quick 정렬로 틀리게 한다 ...  나중에 다시 풀어야
+- #include <algorithm>  의  sort 함수를 이용하면 정확하게 풀 수 있다.
