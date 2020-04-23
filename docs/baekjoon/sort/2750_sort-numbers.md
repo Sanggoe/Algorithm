@@ -46,7 +46,36 @@ N개의 수가 주어졌을 때, 이를 오름차순으로 정렬하는 프로�
 ### Source code
 
 ```c
-code
+#include <stdio.h>
+
+int array[1001];  
+
+int main(void) {
+	int number, i, j, min, index, temp;
+	scanf("%d", &number);
+	
+	for(i=0; i<number; i++) {
+		scanf("%d", &array[i]);
+	}
+	
+    // select sort를 사용
+	for(i=0; i<number; i++) {
+		min = 1001;	// 입력값 최대가 1000이므로 
+		for(j=i; j<number; j++) {
+			if(min > array[j]) {
+				min = array[j];
+				index = j;
+			}
+		}
+		temp = array[i];
+		array[i] = array[index];
+		array[index] = temp;
+	}
+	
+	for(i=0; i<number; i++) {
+		printf("%d\n", array[i]);
+	}
+}
 ```
 
 <br/>
