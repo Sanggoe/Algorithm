@@ -12,7 +12,7 @@ https://www.youtube.com/watch?v=WaNLJf8xzC4
 
 
 
-[01. 선택 정렬 (Select Sort)](docs/01_select-sort.md)
+[01. 선택 정렬 (Select Sort)](docs/01_selection-sort.md)
 
 [02. 버블 정렬 (Bubble Sort)](docs/02_bubble-sort.md)
 
