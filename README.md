@@ -22,6 +22,8 @@ https://www.youtube.com/watch?v=WaNLJf8xzC4
 
 [05. 병합 정렬 (Merge Sort)](docs/05_merge-sort.md)
 
+[06. C++ STL  sort 함수](docs/06_c++-stl-sort.md)
+
 <br/>
 
 <br/>
