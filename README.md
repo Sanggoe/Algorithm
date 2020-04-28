@@ -24,6 +24,10 @@ https://www.youtube.com/watch?v=WaNLJf8xzC4
 
 [06. C++ STL  sort 함수](docs/06_c++-stl-sort.md)
 
+[07. 힙 정렬 (Heap Sort)](docs/07_heap-sort.md)
+
+[08. 계수 정렬 (Counting Sort)](docs/08_counting-sort.md)
+
 <br/>
 
 <br/>
