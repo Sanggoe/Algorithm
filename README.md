@@ -32,6 +32,28 @@ https://www.youtube.com/watch?v=WaNLJf8xzC4
 
 <br/>
 
+## Data Struct
+
+[01. 스택 (Stack)](docs/01_stack-datastruct.md)
+
+[02. 큐 (Queue)](docs/02_queue-datastruct.md)
+
+<br/>
+
+<br/>
+
+## Search
+
+[01. 넓이 우선 탐색 (Breath First Search)](docs/01_breath-first-search.md)
+
+[02. 깊이 우선 탐색 (Depth First Search)](docs/02_depth-first-search.md)
+
+[03. 합집합 찾기 (Union Find)](docs/03_union-find.md)
+
+<br/>
+
+<br/>
+
 ## BAEKJOON
 
 [2750 Sort](docs/baekjoon/sort/2750_sort-numbers.md)
