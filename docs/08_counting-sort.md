@@ -1,4 +1,8 @@
-# 08. 계수 정렬 (Counting Sort)
+# Sort Algorithm
+
+<br/>
+
+## 08. 계수 정렬 (Counting Sort)
 
 앞서 여러 정렬 방법들에 대해 공부했다. 빠른 정렬을 말하라면, 퀵 / 병합 / 힙 정렬을 말할 수 있다.
 

@@ -1,4 +1,8 @@
-# 02. 버블 정렬 (Bubble sort)
+# Sort Algorithm
+
+<br/>
+
+## 02. 버블 정렬 (Bubble sort)
 
 마찬가지로, 매우 직관적인 해결 방법 중 하나이다.
 

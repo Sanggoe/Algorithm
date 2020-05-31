@@ -1,4 +1,8 @@
-# 04. 퀵 정렬 (Quick Sort)
+# Sort Algorithm
+
+<br/>
+
+## 04. 퀵 정렬 (Quick Sort)
 
 대표적인 '분할 정복' 알고리즘으로, 평균 속도가 빠른 정렬 방식이다.
 

@@ -1,4 +1,8 @@
-# 03. 삽입 정렬 (Insert Sort)
+# Sort Algorithm
+
+<br/>
+
+## 03. 삽입 정렬 (Insert Sort)
 
 각 숫자를 적절한 위치에 삽입하는 방법을 사용하는 알고리즘이다.
 

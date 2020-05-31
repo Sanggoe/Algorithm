@@ -1,4 +1,8 @@
-# 01. 선택정렬 (Selection Sort)
+# Sort Algorithm
+
+<br/>
+
+## 01. 선택정렬 (Selection Sort)
 
 가장 기초적이며, 원시적인 방법 중 하나이며, 직관적이다.
 

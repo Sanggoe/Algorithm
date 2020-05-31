@@ -1,4 +1,8 @@
-# 05. 병합 정렬 (Merge Sort)
+# Sort Algorithm
+
+<br/>
+
+## 05. 병합 정렬 (Merge Sort)
 
 대표적인 '분할 정복' 알고리즘으로, 평균 속도가 빠른 정렬 방식이다.
 

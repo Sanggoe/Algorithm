@@ -2,31 +2,46 @@
 
 알고리즘을 공부하며 정리한 Repository.
 
+<br/>
 
+### **1. 알고리즘의 주제별 분류**
 
-## Sort
+<br/>
 
-정렬 관련 소개 및 설명 [출처 TED-ed]
+## Sorting Algorithm
 
-https://www.youtube.com/watch?v=WaNLJf8xzC4
+* 정렬 관련 소개 및 설명 [출처 TED-ed]
+  * https://www.youtube.com/watch?v=WaNLJf8xzC4
 
+<br/>
 
+* [선택 정렬 (Select Sort)](docs/01_selection-sort.md)
+* [버블 정렬 (Bubble Sort)](docs/02_bubble-sort.md)
+* [삽입 정렬 (Insert Sort](docs/03_insert-sort.md)
+* [퀵 정렬 (Quick Sort)](docs/04_quick-sort.md)
+* [병합 정렬 (Merge Sort)](docs/05_merge-sort.md)
+* [C++ STL  sort 함수](docs/06_c++-stl-sort.md)
+* [힙 정렬 (Heap Sort)](docs/07_heap-sort.md)
+* [계수 정렬 (Counting Sort)](docs/08_counting-sort.md)
 
-[01. 선택 정렬 (Select Sort)](docs/01_selection-sort.md)
+<br/>
 
-[02. 버블 정렬 (Bubble Sort)](docs/02_bubble-sort.md)
+<br/>
 
-[03. 삽입 정렬 (Insert Sort](docs/03_insert-sort.md)
+## Graph Algorithm
 
-[04. 퀵 정렬 (Quick Sort)](docs/04_quick-sort.md)
+* [넓이 우선 탐색 (Breath First Search)](docs/01_breath-first-search.md)
+* [깊이 우선 탐색 (Depth First Search)](docs/02_depth-first-search.md)
+* [합집합 찾기 (Union Find)](docs/03_union-find.md)
+* [크루스칼 알고리즘 (Kruskal)](docs/04_kruskal-algorithm.md)
 
-[05. 병합 정렬 (Merge Sort)](docs/05_merge-sort.md)
+<br/>
 
-[06. C++ STL  sort 함수](docs/06_c++-stl-sort.md)
+<br/>
 
-[07. 힙 정렬 (Heap Sort)](docs/07_heap-sort.md)
+## Searching Algorithm
 
-[08. 계수 정렬 (Counting Sort)](docs/08_counting-sort.md)
+* [이진트리](docs/01_binary-search.md)
 
 <br/>
 
@@ -34,25 +49,20 @@ https://www.youtube.com/watch?v=WaNLJf8xzC4
 
 ## Data Struct
 
-[01. 스택 (Stack)](docs/01_stack-datastruct.md)
-
-[02. 큐 (Queue)](docs/02_queue-datastruct.md)
-
-<br/>
-
-<br/>
-
-## Search
-
-[01. 넓이 우선 탐색 (Breath First Search)](docs/01_breath-first-search.md)
-
-[02. 깊이 우선 탐색 (Depth First Search)](docs/02_depth-first-search.md)
-
-[03. 합집합 찾기 (Union Find)](docs/03_union-find.md)
+* [스택 (Stack)](docs/01_stack-datastruct.md)
+* [큐 (Queue)](docs/02_queue-datastruct.md)
 
 <br/>
 
 <br/>
+
+## Dynamic Programming
+
+
+
+
+
+
 
 ## BAEKJOON
 
@@ -62,3 +72,8 @@ https://www.youtube.com/watch?v=WaNLJf8xzC4
 
 [2752 Sort](docs/baekjoon/sort/2752_sort-numbers.md)
 
+<br/>
+
+<br/>
+
+[알고리즘 구분](http://www.ktword.co.kr/abbr_view.php?m_temp1=5735&id=136)
