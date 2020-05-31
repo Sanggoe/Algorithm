@@ -76,10 +76,6 @@ https://www.youtube.com/watch?v=WaNLJf8xzC4
 
 <br/>
 
-
-
-<br/>
-
 <br/>
 
 [알고리즘 구분](http://www.ktword.co.kr/abbr_view.php?m_temp1=5735&id=136)
