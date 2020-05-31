@@ -4,14 +4,11 @@
 
 <br/>
 
-### **1. 알고리즘의 주제별 분류**
-
-<br/>
-
 ## Sorting Algorithm
 
 * 정렬 관련 소개 및 설명 [출처 TED-ed]
-  * https://www.youtube.com/watch?v=WaNLJf8xzC4
+
+  https://www.youtube.com/watch?v=WaNLJf8xzC4
 
 <br/>
 
@@ -26,8 +23,6 @@
 
 <br/>
 
-<br/>
-
 ## Graph Algorithm
 
 * [넓이 우선 탐색 (Breath First Search)](docs/01_breath-first-search.md)
@@ -37,13 +32,9 @@
 
 <br/>
 
-<br/>
-
 ## Searching Algorithm
 
 * [이진트리](docs/01_binary-search.md)
-
-<br/>
 
 <br/>
 
@@ -54,15 +45,11 @@
 
 <br/>
 
-<br/>
-
 ## Dynamic Programming
 
+* [다이나믹 프로그래밍](docs/01_dynamic-programming.md)
 
-
-
-
-
+<br/>
 
 ## BAEKJOON
 
@@ -74,6 +61,17 @@
 
 <br/>
 
+[11726 Dynamic](docs\baekjoon\dynamic-programming\11726_dynamic-programming.md)
+
+[11727 Dynamic](docs\baekjoon\dynamic-programming\11727_dynamic-programming.md)
+
+[2133 Dynamic](docs\baekjoon\dynamic-programming\2133_dynamic-programming.md)
+
+[14852 Dynamic](docs\baekjoon\dynamic-programming\14852_dynamic-programming.md)
+
+<br/>
+
 <br/>
 
 [알고리즘 구분](http://www.ktword.co.kr/abbr_view.php?m_temp1=5735&id=136)
+
