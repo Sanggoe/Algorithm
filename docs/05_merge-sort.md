@@ -118,3 +118,6 @@ int main(void) {
 
 **병합 정렬의 평균 시간 복잡도 = O(N*logN)**
 
+<br/>
+
+[목록 보기](../README.md)

@@ -106,3 +106,7 @@ int main(void) {
 - 기본적인 Quick 정렬의 경우, 최악의 경우 **NxN** 이기에 보통은 틀리도록 문제를 낸다.
 - ... 예전과 다르게 Test case를 더 추가해서 지금은 Quick 정렬로 틀리게 한다 ...  나중에 다시 풀어야
 - #include <algorithm>  의  sort 함수를 이용하면 정확하게 풀 수 있다.
+
+<br/>
+
+[목록 보기](../../../README.md)

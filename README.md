@@ -74,4 +74,3 @@
 <br/>
 
 [알고리즘 구분](http://www.ktword.co.kr/abbr_view.php?m_temp1=5735&id=136)
-
