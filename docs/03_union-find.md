@@ -1,4 +1,8 @@
-# 11. 합집합 찾기 (Union Find)
+# Graph Algorithm
+
+<br/>
+
+## 03. 합집합 찾기 (Union Find)
 
 * 합집합 찾기라는 의미를 가진 **Union find** 알고리즘은, 대표적인 **그래프 알고리즘** 중 하나이다.
 * 서로 같은 집합이 아닌 서로소 집합(disjoint-set)을 찾는 알고리즘이라고도 부른다.
