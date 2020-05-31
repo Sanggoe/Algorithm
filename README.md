@@ -76,9 +76,9 @@ https://www.youtube.com/watch?v=WaNLJf8xzC4
 
 <br/>
 
-[11726 Dynamic](docs\baekjoon\dynamic-programming\11726_dynamic-programming.md)
+[11726 Dynamic](docs\baekjoon\dynamic-programming\)
 
-[11727 Dynamic](docs\baekjoon\dynamic-programming\11727_dynamic-programming.md)
+
 
 [2133 Dynamic](docs\baekjoon\dynamic-programming\2133_dynamic-programming.md)
 
